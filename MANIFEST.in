@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include restaurantexperts *.css
+recursive-include restaurantexperts *.csv
+recursive-include restaurantexperts *.html
+recursive-include restaurantexperts *.ico
+recursive-include restaurantexperts *.js
+recursive-include restaurantexperts *.json
+recursive-include restaurantexperts *.md
+recursive-include restaurantexperts *.png
+recursive-include restaurantexperts *.py
+recursive-include restaurantexperts *.svg
+recursive-include restaurantexperts *.txt
+recursive-exclude restaurantexperts *.pyc
