@@ -1,0 +1,201 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-01-06 03:58:50.877941",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "bank_name",
+  "column_break_sbnxn",
+  "compnay",
+  "posting_date",
+  "status",
+  "amended_from",
+  "section_break_uhuk0",
+  "loan_amount",
+  "interest",
+  "repayment_date",
+  "column_break_mpyjd",
+  "repayment_months",
+  "monthly_repayment",
+  "auto_repayment",
+  "section_break_gdvaz",
+  "loan_account",
+  "disbursement_account",
+  "column_break_xu35d",
+  "repayment_account",
+  "section_break_xyy5e",
+  "schedule"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "LOAN-.YYYY.-"
+  },
+  {
+   "fieldname": "bank_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Bank Name",
+   "options": "Bank Person",
+   "reqd": 1
+  },
+  {
+   "fieldname": "compnay",
+   "fieldtype": "Link",
+   "label": "Compnay",
+   "options": "Company"
+  },
+  {
+   "default": "now",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Posting date",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nUnpaid\nPartially Paid\nPaid\nCancelled\nAccrued",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "options": "Bank Loan"
+  },
+  {
+   "fieldname": "section_break_uhuk0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "loan_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Loan Amount",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "description": "Percentage",
+   "fieldname": "interest",
+   "fieldtype": "Float",
+   "label": "Interest"
+  },
+  {
+   "fieldname": "column_break_mpyjd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "repayment_months",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Repayment months",
+   "reqd": 1
+  },
+  {
+   "fieldname": "monthly_repayment",
+   "fieldtype": "Data",
+   "label": "Monthly repayment",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_gdvaz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "loan_account",
+   "fieldtype": "Link",
+   "label": "Loan account",
+   "options": "Account",
+   "reqd": 1
+  },
+  {
+   "fieldname": "disbursement_account",
+   "fieldtype": "Link",
+   "label": "Disbursement account",
+   "options": "Account",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_xu35d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "repayment_account",
+   "fieldtype": "Link",
+   "label": "Repayment account",
+   "options": "Account",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_xyy5e",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "schedule",
+   "fieldtype": "Table",
+   "label": "Schedule",
+   "options": "Bank Loan Schedule"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "options": "Bank Loan"
+  },
+  {
+   "fieldname": "repayment_date",
+   "fieldtype": "Date",
+   "label": "Repayment date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_sbnxn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "auto_repayment",
+   "fieldtype": "Check",
+   "label": "Auto Repayment"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-01-06 20:36:33.950778",
+ "modified_by": "Administrator",
+ "module": "Restaurant Expert",
+ "name": "Bank Loan",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
