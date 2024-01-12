@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:name1",
+ "creation": "2024-01-12 14:51:07.726326",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "name_localized",
+  "modifire_group",
+  "column_break_gmcbk",
+  "price",
+  "calories",
+  "image",
+  "modifier_ingredients_section",
+  "ingredients",
+  "tax_tab",
+  "taxes"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "name_localized",
+   "fieldtype": "Data",
+   "label": "Name Localized"
+  },
+  {
+   "fieldname": "modifire_group",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Modifire Group",
+   "options": "Modifires Groups",
+   "reqd": 1
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Price",
+   "reqd": 1
+  },
+  {
+   "fieldname": "calories",
+   "fieldtype": "Int",
+   "label": "Calories"
+  },
+  {
+   "fieldname": "ingredients",
+   "fieldtype": "Table",
+   "label": "Ingredients",
+   "options": "BOM Item"
+  },
+  {
+   "fieldname": "column_break_gmcbk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "in_preview": 1,
+   "label": "Image",
+   "options": "image"
+  },
+  {
+   "fieldname": "tax_tab",
+   "fieldtype": "Tab Break",
+   "label": "Tax"
+  },
+  {
+   "fieldname": "taxes",
+   "fieldtype": "Table",
+   "label": "Taxes",
+   "options": "Item Tax"
+  },
+  {
+   "fieldname": "modifier_ingredients_section",
+   "fieldtype": "Section Break",
+   "label": "Modifier Ingredients"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-12 15:58:48.899673",
+ "modified_by": "Administrator",
+ "module": "Restaurant Expert",
+ "name": "Modifires",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
