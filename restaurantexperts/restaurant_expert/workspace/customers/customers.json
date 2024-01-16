@@ -1,0 +1,42 @@
+{
+ "charts": [
+  {
+   "chart_name": "Top Customers",
+   "label": "Top Customers"
+  }
+ ],
+ "content": "[{\"id\":\"nGH6vSbfMD\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Customers</span>\",\"col\":12}},{\"id\":\"zDv4sJHo0D\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"eelbP2-ovx\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Top Customers\",\"col\":12}},{\"id\":\"I3JV8mHINj\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Customers\",\"col\":6}},{\"id\":\"_51eetbW-E\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Inactive Customers\",\"col\":6}}]",
+ "creation": "2024-01-16 01:19:31.889134",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "share",
+ "idx": 0,
+ "indicator_color": "darkgrey",
+ "is_hidden": 0,
+ "label": "Customers",
+ "links": [],
+ "modified": "2024-01-16 02:30:21.416182",
+ "modified_by": "Administrator",
+ "module": "Restaurant Expert",
+ "name": "Customers",
+ "number_cards": [
+  {
+   "label": "Active Customers",
+   "number_card_name": "Active Customers-1"
+  },
+  {
+   "label": "Inactive Customers",
+   "number_card_name": "Inactive Customers"
+  }
+ ],
+ "parent_page": "Foodiescape",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 4.0,
+ "shortcuts": [],
+ "title": "Customers"
+}
