@@ -1,0 +1,40 @@
+[
+ {
+  "allow_guest": 0,
+  "api_method": null,
+  "cron_format": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Server Script",
+  "doctype_event": "Before Save",
+  "enable_rate_limit": 0,
+  "event_frequency": "All",
+  "modified": "2024-01-18 20:13:36.967422",
+  "module": "Restaurant Expert",
+  "name": "Set_guests_count",
+  "rate_limit_count": 5,
+  "rate_limit_seconds": 86400,
+  "reference_doctype": "POS Invoice",
+  "script": "if doc.custom_guests_count is None:\n    doc.custom_guests_count = 1\n\nif  doc.custom_guests_count <= 0:\n  doc.custom_guests_count = 1",
+  "script_type": "DocType Event"
+ },
+ {
+  "allow_guest": 0,
+  "api_method": null,
+  "cron_format": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Server Script",
+  "doctype_event": "Before Submit",
+  "enable_rate_limit": 0,
+  "event_frequency": "All",
+  "modified": "2024-01-18 20:38:22.902609",
+  "module": "Restaurant Expert",
+  "name": "Alarm_order_type",
+  "rate_limit_count": 5,
+  "rate_limit_seconds": 86400,
+  "reference_doctype": "POS Invoice",
+  "script": "if doc.custom_order_type == \"\":\n    frappe.throw(\"You Must To Select Order Type.\")",
+  "script_type": "DocType Event"
+ }
+]

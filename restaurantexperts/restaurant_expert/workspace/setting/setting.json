@@ -1,7 +1,7 @@
 {
  "charts": [],
- "content": "[{\"id\":\"mejHhh55GQ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Setting</span>\",\"col\":12}},{\"id\":\"gsxZGuKnIK\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"v7qqNEu_66\",\"type\":\"paragraph\",\"data\":{\"text\":\"Branches,&nbsp;Devices,&nbsp;Table Sections\",\"col\":12}},{\"id\":\"JXhgmLcyhG\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"4RPA4WzciT\",\"type\":\"paragraph\",\"data\":{\"text\":\"Users,&nbsp;Discounts,&nbsp;Taxes,&nbsp;Payment Methods,&nbsp;Price Tags\",\"col\":12}},{\"id\":\"KCJimzZq9e\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ydz5V3ISZX\",\"type\":\"paragraph\",\"data\":{\"text\":\"Void and Return Reason,&nbsp;Quantity Adjustment Reason,&nbsp;Drawer Operation Reason\",\"col\":12}},{\"id\":\"seM-ITno15\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ACZNJ4RRke\",\"type\":\"paragraph\",\"data\":{\"text\":\"General,&nbsp;Food Aggregators\",\"col\":12}}]",
- "creation": "2024-01-16 02:26:34.436169",
+ "content": "[{\"id\":\"mejHhh55GQ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Setting</span>\",\"col\":12}},{\"id\":\"gsxZGuKnIK\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"oPf8cTHp2l\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Branches, Devices, Table Sections, Order Method<b></b></span>\",\"col\":12}},{\"id\":\"M0t9xrOeGR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Branches - Warehouses\",\"col\":6}},{\"id\":\"JMYH3jsncC\",\"type\":\"spacer\",\"data\":{\"col\":6}},{\"id\":\"kS06GWsynR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Order Types\",\"col\":6}},{\"id\":\"QeWO5mDKB_\",\"type\":\"spacer\",\"data\":{\"col\":6}},{\"id\":\"lZbKY8qNaK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"POS Settings\",\"col\":6}},{\"id\":\"1po4gQowlx\",\"type\":\"spacer\",\"data\":{\"col\":6}},{\"id\":\"XrKeAkPjN9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Devices\",\"col\":6}},{\"id\":\"JXhgmLcyhG\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"U-yiiUZ2X1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Taxes</b></span>\",\"col\":6}},{\"id\":\"gXqCI72XzL\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Payment Methods, Discounts, Prices Tags</b></span>\",\"col\":6}},{\"id\":\"atPew3MgMl\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tax Category\",\"col\":6}},{\"id\":\"tc3bpWYBDu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Payment Methods\",\"col\":6}},{\"id\":\"e_trseEdK1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sales Tax\",\"col\":6}},{\"id\":\"DQedA0P1lA\",\"type\":\"spacer\",\"data\":{\"col\":6}},{\"id\":\"9smh2xUQye\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Purchase Taxes\",\"col\":6}},{\"id\":\"KCJimzZq9e\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ydz5V3ISZX\",\"type\":\"paragraph\",\"data\":{\"text\":\"Void and Return Reason,&nbsp;Quantity Adjustment Reason,&nbsp;Drawer Operation Reason\",\"col\":12}},{\"id\":\"seM-ITno15\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ACZNJ4RRke\",\"type\":\"paragraph\",\"data\":{\"text\":\"General,&nbsp;Food Aggregators\",\"col\":12}}]",
+ "creation": "2024-01-16 03:09:49.555979",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
@@ -13,17 +13,80 @@
  "is_hidden": 0,
  "label": "Setting",
  "links": [],
- "modified": "2024-01-16 03:04:35.709265",
+ "modified": "2024-01-18 20:22:01.147027",
  "modified_by": "Administrator",
  "module": "Restaurant Expert",
  "name": "Setting",
  "number_cards": [],
- "owner": "Administrator",
  "parent_page": "Foodiescape",
  "public": 1,
  "quick_lists": [],
  "roles": [],
  "sequence_id": 37.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Sales Tax",
+   "link_to": "Sales Taxes and Charges Template",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Payment Methods",
+   "link_to": "Mode of Payment",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "Tree",
+   "label": "Branches - Warehouses",
+   "link_to": "Warehouse",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Order Types",
+   "link_to": "Order Types",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Devices",
+   "link_to": "POS Profile",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "POS Settings",
+   "link_to": "POS Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Purchase Taxes",
+   "link_to": "Purchase Taxes and Charges Template",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Tax Category",
+   "link_to": "Tax Category",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
  "title": "Setting"
 }

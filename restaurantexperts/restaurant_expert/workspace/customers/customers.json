@@ -5,8 +5,8 @@
    "label": "Top Customers"
   }
  ],
- "content": "[{\"id\":\"nGH6vSbfMD\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Customers</span>\",\"col\":12}},{\"id\":\"zDv4sJHo0D\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"eelbP2-ovx\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Top Customers\",\"col\":12}},{\"id\":\"I3JV8mHINj\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Customers\",\"col\":6}},{\"id\":\"_51eetbW-E\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Inactive Customers\",\"col\":6}}]",
- "creation": "2024-01-16 01:19:31.889134",
+ "content": "[{\"id\":\"nGH6vSbfMD\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Customers</span>\",\"col\":12}},{\"id\":\"zDv4sJHo0D\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"eelbP2-ovx\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Top Customers\",\"col\":12}},{\"id\":\"I3JV8mHINj\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Customers\",\"col\":6}},{\"id\":\"_51eetbW-E\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Inactive Customers\",\"col\":6}},{\"id\":\"EMuxoaiGZx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add new customer\",\"col\":3}}]",
+ "creation": "2024-01-16 03:09:49.353413",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
@@ -18,7 +18,7 @@
  "is_hidden": 0,
  "label": "Customers",
  "links": [],
- "modified": "2024-01-16 02:30:21.416182",
+ "modified": "2024-01-16 03:13:16.001604",
  "modified_by": "Administrator",
  "module": "Restaurant Expert",
  "name": "Customers",
@@ -37,6 +37,15 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 4.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "New",
+   "label": "Add new customer",
+   "link_to": "Customer",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
  "title": "Customers"
 }
