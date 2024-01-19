@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "autoname": "hash",
+ "creation": "2024-01-19 01:44:39.959190",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tables_section",
+  "name1",
+  "seats"
+ ],
+ "fields": [
+  {
+   "fieldname": "tables_section",
+   "fieldtype": "Section Break",
+   "label": "Tables"
+  },
+  {
+   "bold": 1,
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "bold": 1,
+   "description": "Number of table seats",
+   "fieldname": "seats",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Seats",
+   "non_negative": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-19 02:21:15.861484",
+ "modified_by": "Administrator",
+ "module": "Restaurant Expert",
+ "name": "Section Tables",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
