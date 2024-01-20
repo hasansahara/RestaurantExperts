@@ -18363,7 +18363,7 @@
  },
  {
   "charts": [],
-  "content": "[{\"id\":\"FoiQYfqwOi\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Menu &amp; Inventory</span>\",\"col\":12}},{\"id\":\"rLfVBItZlj\",\"type\":\"paragraph\",\"data\":{\"text\":\"Category, Groups, Products, Items, Bundle | Combo\",\"col\":12}},{\"id\":\"vPVjGpIDDq\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"3q2OC5GUBa\",\"type\":\"paragraph\",\"data\":{\"text\":\"Gift Cards,&nbsp;Coupons,&nbsp;Promotions,&nbsp;Timed Events\",\"col\":12}},{\"id\":\"qkPmUA-pPh\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"6ZbeLGuUU7\",\"type\":\"paragraph\",\"data\":{\"text\":\"Modifires Groups,&nbsp;Modifires\",\"col\":12}}]",
+  "content": "[{\"id\":\"FoiQYfqwOi\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Menu &amp; Inventory</span>\",\"col\":12}},{\"id\":\"rLfVBItZlj\",\"type\":\"paragraph\",\"data\":{\"text\":\"Category, Groups, Products, Items, Bundle | Combo\",\"col\":12}},{\"id\":\"hZegOqzjCz\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Pricing Settings</b></span>\",\"col\":6}},{\"id\":\"-iYRGjldMa\",\"type\":\"spacer\",\"data\":{\"col\":6}},{\"id\":\"d53HAfw8Do\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Price List\",\"col\":6}},{\"id\":\"IwiB59dP1O\",\"type\":\"spacer\",\"data\":{\"col\":6}},{\"id\":\"mOKvL9GfNA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Product Price\",\"col\":6}},{\"id\":\"vPVjGpIDDq\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"3q2OC5GUBa\",\"type\":\"paragraph\",\"data\":{\"text\":\"Gift Cards,&nbsp;Coupons,&nbsp;Promotions,&nbsp;Timed Events\",\"col\":12}},{\"id\":\"qkPmUA-pPh\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"6ZbeLGuUU7\",\"type\":\"paragraph\",\"data\":{\"text\":\"Modifires Groups,&nbsp;Modifires\",\"col\":12}}]",
   "custom_blocks": [],
   "docstatus": 0,
   "doctype": "Workspace",
@@ -18374,7 +18374,7 @@
   "is_hidden": 0,
   "label": "Menu And Inventory",
   "links": [],
-  "modified": "2024-01-16 03:01:08.857999",
+  "modified": "2024-01-20 03:15:03.621193",
   "module": "Restaurant Expert",
   "name": "Menu And Inventory",
   "number_cards": [],
@@ -18384,7 +18384,40 @@
   "restrict_to_domain": null,
   "roles": [],
   "sequence_id": 6.0,
-  "shortcuts": [],
+  "shortcuts": [
+   {
+    "color": "Red",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Product Price",
+    "link_to": "Item Price",
+    "parent": "Menu And Inventory",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Red",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Price List",
+    "link_to": "Price List",
+    "parent": "Menu And Inventory",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   }
+  ],
   "title": "Menu And Inventory"
  },
  {
