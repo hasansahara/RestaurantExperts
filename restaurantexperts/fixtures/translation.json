@@ -98,10 +98,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "ar",
-  "modified": "2024-01-21 14:35:36.722218",
+  "modified": "2024-01-21 19:15:28.885817",
   "name": "2cc2601df9",
   "source_text": "PUBLIC",
-  "translated_text": "عام"
+  "translated_text": "مساحة العمل الافتراضية"
  },
  {
   "context": null,
@@ -258,5 +258,57 @@
   "name": "18394f6c62",
   "source_text": "Orders",
   "translated_text": "الطلبات"
+ },
+ {
+  "context": "",
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2024-01-21 18:53:35.690288",
+  "name": "3e0fe0bc8c",
+  "source_text": "Leaves",
+  "translated_text": "الإجازات"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2024-01-21 18:58:11.092806",
+  "name": "4f239d1598",
+  "source_text": "Shift & Attendance",
+  "translated_text": "فترات العمل والحضور"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2024-01-21 19:04:43.615277",
+  "name": "2ab0d46b65",
+  "source_text": "Setting",
+  "translated_text": "الإعدادات"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2024-01-21 19:10:19.891503",
+  "name": "0af75d3a78",
+  "source_text": "Menu And Inventory",
+  "translated_text": "قائمة الطعام والمخزون"
  }
 ]
