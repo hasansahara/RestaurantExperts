@@ -1,4 +1,14 @@
-body{font-family: 'Noto Kufi Arabic', sans-serif, !important; }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+body{
+    font-family: 'Noto Kufi Arabic', sans-serif;
+
+}
+
+/*.navbar {
+    height: 48px;
+    background: #3f51b5a1;
+    border-bottom: 1px solid var(--border-color);
+    padding: 0;
+}*/
