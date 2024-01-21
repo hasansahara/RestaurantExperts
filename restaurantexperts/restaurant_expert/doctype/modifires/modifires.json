@@ -37,7 +37,7 @@
    "fieldname": "modifire_group",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Modifire Group",
+   "label": "Modifires Group",
    "options": "Modifires Groups",
    "reqd": 1
   },
@@ -89,7 +89,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-01-12 15:58:48.899673",
+ "modified": "2024-01-21 21:44:22.289057",
  "modified_by": "Administrator",
  "module": "Restaurant Expert",
  "name": "Modifires",
