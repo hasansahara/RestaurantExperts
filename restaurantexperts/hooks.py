@@ -15,7 +15,7 @@ fixtures = ["Custom Field", "Workspace", "Server Script","Client Script"]
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/restaurantexperts/css/restaurantexperts.css"
+app_include_css = "/assets/restaurantexperts/css/restaurantexperts.css"
 # app_include_js = "/assets/restaurantexperts/js/restaurantexperts.js"
 
 # include js, css files in header of web template

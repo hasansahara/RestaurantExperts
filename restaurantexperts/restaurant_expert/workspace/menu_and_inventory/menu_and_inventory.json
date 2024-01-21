@@ -1,88 +1,19 @@
 {
  "charts": [],
- "content": "[{\"id\":\"FoiQYfqwOi\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h2\\\">Menu &amp; Inventory</span>\",\"col\":12}},{\"id\":\"ZMDg1hGPsG\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"tinjcvsn7U\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"z5YElpV5ED\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>Products &amp; Items</b></span><br>\",\"col\":4}},{\"id\":\"hZegOqzjCz\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>Pricing</b></span>\",\"col\":4}},{\"id\":\"DEfMNDe-MI\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>Recipes - Ingredients</b></span>\",\"col\":4}},{\"id\":\"vNpQRw82Hd\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Categories - Groups\",\"col\":4}},{\"id\":\"d53HAfw8Do\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Price List\",\"col\":4}},{\"id\":\"-iYRGjldMa\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"AkCwYe9AjW\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Products - Items\",\"col\":4}},{\"id\":\"OX6gROdBAE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item Price\",\"col\":4}},{\"id\":\"A3iuhbqyf5\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"t8u4Hmi7RG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Combos - Bundle\",\"col\":4}},{\"id\":\"mOKvL9GfNA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Product Price\",\"col\":4}},{\"id\":\"IwiB59dP1O\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"BMbFxdmS3w\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Alternative Items\",\"col\":4}},{\"id\":\"vPVjGpIDDq\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"5P45glzf4c\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"9A6F7NxIXk\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"kTWFs81cJW\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"895lAoa07d\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"xv298yhw3D\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Modifires Groups\",\"col\":4}},{\"id\":\"yVEGn873vZ\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"8yjoVNX3Ot\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"XzfqhLy6tB\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Modifires\",\"col\":4}},{\"id\":\"wCOR5Bph1a\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"tzSEeMo8AU\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"wEPh4klknp\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"5-5lA-jRCm\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"3q2OC5GUBa\",\"type\":\"paragraph\",\"data\":{\"text\":\"Gift Cards,&nbsp;Coupons,&nbsp;Promotions,&nbsp;Timed Events\",\"col\":12}},{\"id\":\"qkPmUA-pPh\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"6ZbeLGuUU7\",\"type\":\"paragraph\",\"data\":{\"text\":\"Modifires Groups,&nbsp;Modifires\",\"col\":12}},{\"id\":\"KMqLRarmjG\",\"type\":\"card\",\"data\":{\"card_name\":\"Products & Items\",\"col\":3}},{\"id\":\"7B3y75Zrgh\",\"type\":\"card\",\"data\":{\"card_name\":\"Pricing\",\"col\":3}}]",
- "creation": "2024-01-20 01:42:30.585033",
+ "content": "[{\"id\":\"FoiQYfqwOi\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h2\\\">Menu &amp; Inventory</span>\",\"col\":12}},{\"id\":\"WeqrrsRUsz\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"-iYRGjldMa\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"WkaDy-CFMQ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Items - Products</b></span>\",\"col\":4}},{\"id\":\"hZegOqzjCz\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Pricing</b></span>\",\"col\":4}},{\"id\":\"cG7t7tKeo0\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Recipes - Ingredients</b></span>\",\"col\":4}},{\"id\":\"rVWzF2CIHC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Categories - Groups\",\"col\":4}},{\"id\":\"SqkWSz2luu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Price List\",\"col\":4}},{\"id\":\"IwiB59dP1O\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"W7g6DcnF4P\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Products - Items\",\"col\":4}},{\"id\":\"BofjQvWgny\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item - Product Price\",\"col\":4}},{\"id\":\"vPVjGpIDDq\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"bnuEuf9qzu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Combos - Bundle\",\"col\":4}},{\"id\":\"hNnpxs33En\",\"type\":\"spacer\",\"data\":{\"col\":8}},{\"id\":\"U5XnlpDEq9\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"mhsfcSiLPo\",\"type\":\"spacer\",\"data\":{\"col\":8}},{\"id\":\"dnumeTVbWw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Unit Of Measure (UOM)\",\"col\":4}},{\"id\":\"JgzPvN3J0R\",\"type\":\"spacer\",\"data\":{\"col\":8}},{\"id\":\"FWFqthlE0J\",\"type\":\"spacer\",\"data\":{\"col\":4}},{\"id\":\"ia83Pfh3st\",\"type\":\"spacer\",\"data\":{\"col\":8}},{\"id\":\"ePdTV0Ars6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Modifires Groups\",\"col\":4}},{\"id\":\"A31-YOgCY0\",\"type\":\"spacer\",\"data\":{\"col\":8}},{\"id\":\"pn1jGZIyrT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Modifires\",\"col\":3}},{\"id\":\"qkPmUA-pPh\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Dy4X5zxsI5\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"3q2OC5GUBa\",\"type\":\"paragraph\",\"data\":{\"text\":\"Gift Cards,&nbsp;Coupons,&nbsp;Promotions,&nbsp;Timed Events\",\"col\":12}}]",
+ "creation": "2024-01-21 09:17:30.978301",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "month-view",
+ "icon": "stock",
  "idx": 0,
  "indicator_color": "",
  "is_hidden": 0,
  "label": "Menu And Inventory",
- "links": [
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Products & Items",
-   "link_count": 3,
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Categories - Groups",
-   "link_count": 0,
-   "link_to": "Item Group",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Products - Items",
-   "link_count": 0,
-   "link_to": "Item",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Combos - Bundle",
-   "link_count": 0,
-   "link_to": "Product Bundle",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Pricing",
-   "link_count": 2,
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Price List",
-   "link_count": 0,
-   "link_to": "Price List",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Item Price",
-   "link_count": 0,
-   "link_to": "Item Price",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  }
- ],
- "modified": "2024-01-20 17:26:58.390350",
+ "links": [],
+ "modified": "2024-01-21 10:20:52.557525",
  "modified_by": "Administrator",
  "module": "Restaurant Expert",
  "name": "Menu And Inventory",
@@ -95,17 +26,10 @@
  "shortcuts": [
   {
    "color": "Green",
-   "doc_view": "Tree",
-   "label": "Categories - Groups",
-   "link_to": "Item Group",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "color": "Red",
    "doc_view": "List",
-   "label": "Alternative Items",
-   "link_to": "Item Alternative",
+   "format": "{}",
+   "label": "Products - Items",
+   "link_to": "Item",
    "stats_filter": "[]",
    "type": "DocType"
   },
@@ -119,26 +43,9 @@
   },
   {
    "color": "Green",
-   "doc_view": "List",
-   "format": "{}  Available",
-   "label": "Products - Items",
-   "link_to": "Item",
-   "stats_filter": "[[\"Item\",\"disabled\",\"=\",0,false]]",
-   "type": "DocType"
-  },
-  {
-   "color": "Green",
-   "doc_view": "List",
-   "label": "Item Price",
-   "link_to": "Item Price",
-   "stats_filter": "[[\"Item Price\",\"buying\",\"=\",1,false]]",
-   "type": "DocType"
-  },
-  {
-   "color": "Blue",
-   "doc_view": "List",
-   "label": "Combos - Bundle",
-   "link_to": "Product Bundle",
+   "doc_view": "Tree",
+   "label": "Categories - Groups",
+   "link_to": "Item Group",
    "stats_filter": "[]",
    "type": "DocType"
   },
@@ -151,6 +58,22 @@
    "type": "DocType"
   },
   {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Unit Of Measure (UOM)",
+   "link_to": "UOM",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Item - Product Price",
+   "link_to": "Item Price",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
    "color": "Blue",
    "doc_view": "List",
    "label": "Modifires",
@@ -159,11 +82,11 @@
    "type": "DocType"
   },
   {
-   "color": "Red",
+   "color": "Green",
    "doc_view": "List",
-   "label": "Product Price",
-   "link_to": "Item Price",
-   "stats_filter": "[[\"Item Price\",\"selling\",\"=\",1,false]]",
+   "label": "Combos - Bundle",
+   "link_to": "Product Bundle",
+   "stats_filter": "[]",
    "type": "DocType"
   }
  ],
