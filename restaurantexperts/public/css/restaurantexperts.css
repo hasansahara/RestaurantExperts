@@ -2,8 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body{
-    font-family: 'Noto Kufi Arabic', sans-serif;
+	font-family: 'Noto Kufi Arabic', sans-serif;
 
+}
+
+
+/*//////////////////////////////////////////////////////////*/
+
+[data-theme=light] {
+	--sidebar-select-color: #3f51b52e;
+	--SpColor: #3f51b52e;
 }
 
 /*.navbar {
@@ -11,4 +19,35 @@ body{
     background: #3f51b5a1;
     border-bottom: 1px solid var(--border-color);
     padding: 0;
-}*/
+}
+*/
+
+[data-theme=dark] {
+
+	--sidebar-select-color: #6a5acdb3;        /*00645   6a5acdb3     */
+	--SpColor: #7080901f;
+}
+/* التركيز على الازرار */
+
+.widget.onboarding-widget-box .widget-body .onboarding-step.active, .widget.onboarding-widget-box .widget-body .onboarding-step:hover { 
+	background-color: var(--SpColor);
+}
+
+/* التركيز على القائمة الجانبية */ 
+.standard-sidebar .standard-sidebar-item.selected, .desk-sidebar .standard-sidebar-item.selected, .search-dialog .search-results .search-sidebar
+.standard-sidebar-item.selected {
+	background-color: var(--sidebar-select-color);
+}
+
+
+
+
+
+/* .standard-sidebar .standard-sidebar-item:hover, .desk-sidebar .standard-sidebar-item:hover, .search-dialog .search-results .search-sidebar .standard-sidebar-item:hover { 
+    background-color: var(--sidebar-select-color); text-decoration: none;
+}
+*/
+
+
+
+
