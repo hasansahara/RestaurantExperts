@@ -24,7 +24,7 @@ body{
 
 [data-theme=dark] {
 
-	--sidebar-select-color: #6a5acdb3;        /*00645   6a5acdb3     */
+	--sidebar-select-color: #6a5acdb3;           /*6a5acdb3       00645   6a5acdb3     */
 	--SpColor: #7080901f;
 }
 /* التركيز على الازرار */
