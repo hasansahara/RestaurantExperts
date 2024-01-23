@@ -934,5 +934,18 @@
   "name": "e212337061",
   "source_text": "Dismiss",
   "translated_text": "إلغاء"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2024-01-23 00:54:43.114585",
+  "name": "2cf66507e1",
+  "source_text": "Items & Products",
+  "translated_text": "الأصناف والمنتجات"
  }
 ]

@@ -9,7 +9,11 @@
  "engine": "InnoDB",
  "field_order": [
   "name1",
-  "name_localized"
+  "name_localized",
+  "modifires_section",
+  "modifires",
+  "products_section",
+  "products"
  ],
  "fields": [
   {
@@ -25,11 +29,33 @@
    "fieldname": "name_localized",
    "fieldtype": "Data",
    "label": "Name Localized"
+  },
+  {
+   "fieldname": "modifires",
+   "fieldtype": "Table",
+   "label": "Modifires",
+   "options": "Modifires"
+  },
+  {
+   "fieldname": "modifires_section",
+   "fieldtype": "Section Break",
+   "label": "Modifires"
+  },
+  {
+   "fieldname": "products_section",
+   "fieldtype": "Section Break",
+   "label": "Products"
+  },
+  {
+   "fieldname": "products",
+   "fieldtype": "Table MultiSelect",
+   "label": "Products",
+   "options": "Sales Order Item"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-01-12 15:05:16.588703",
+ "modified": "2024-01-23 11:42:11.941460",
  "modified_by": "Administrator",
  "module": "Restaurant Expert",
  "name": "Modifires Groups",
