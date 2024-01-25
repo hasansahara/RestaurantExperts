@@ -1,50 +1,35 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:name1",
- "creation": "2024-01-09 00:07:38.493735",
- "default_view": "List",
+ "autoname": "field:car_name",
+ "creation": "2024-01-25 05:01:37.675480",
  "doctype": "DocType",
- "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "name1",
-  "enabled",
-  "type"
+  "section_break_p1bu",
+  "car_name"
  ],
  "fields": [
   {
+   "fieldname": "section_break_p1bu",
+   "fieldtype": "Section Break"
+  },
+  {
    "allow_in_quick_entry": 1,
-   "fieldname": "name1",
+   "fieldname": "car_name",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Name",
+   "label": "Car Name",
    "reqd": 1,
-   "translatable": 1,
    "unique": 1
-  },
-  {
-   "allow_in_quick_entry": 1,
-   "default": "1",
-   "fieldname": "enabled",
-   "fieldtype": "Check",
-   "label": "Enabled"
-  },
-  {
-   "allow_in_quick_entry": 1,
-   "fieldname": "type",
-   "fieldtype": "Select",
-   "label": "Type",
-   "options": "Takeout\nDine-in",
-   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-01-25 07:18:38.387964",
+ "modified": "2024-01-25 05:12:34.214344",
  "modified_by": "Administrator",
  "module": "Restaurant Expert",
- "name": "Order Types",
+ "name": "Cars",
  "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
