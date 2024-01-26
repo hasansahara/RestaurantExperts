@@ -1,7 +1,7 @@
 {
  "charts": [],
- "content": "[{\"id\":\"-6lFEMtQaj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Reports</span>\",\"col\":12}}]",
- "creation": "2024-01-16 01:19:31.946891",
+ "content": "[{\"id\":\"-6lFEMtQaj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Reports</span>\",\"col\":12}},{\"id\":\"g3OWDDk5JY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"System Console\",\"col\":3}}]",
+ "creation": "2024-01-25 03:54:54.040110",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "Reports",
  "links": [],
- "modified": "2024-01-16 02:30:13.643786",
+ "modified": "2024-01-26 02:41:59.513026",
  "modified_by": "Administrator",
  "module": "Restaurant Expert",
  "name": "Reports",
@@ -23,6 +23,14 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 3.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "System Console",
+   "link_to": "System Console",
+   "type": "DocType"
+  }
+ ],
  "title": "Reports"
 }
