@@ -1155,5 +1155,70 @@
   "name": "3858c6c752",
   "source_text": "Enable Notifications",
   "translated_text": "تفعيل الاشعارات"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2024-01-29 12:28:59.073818",
+  "name": "eb9671ce7f",
+  "source_text": "Disable",
+  "translated_text": "غير مفعل"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2024-01-29 12:30:46.139723",
+  "name": "14e3c7f869",
+  "source_text": "Apply On Order Types",
+  "translated_text": "يطبق على أنواع الطلبات"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2024-01-29 12:34:43.869219",
+  "name": "cd6ba14d50",
+  "source_text": "Enabled",
+  "translated_text": "مفعل"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2024-01-29 13:04:25.769404",
+  "name": "207a691a50",
+  "source_text": "Outside Orders",
+  "translated_text": "طلبات خارجية"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2024-01-29 13:04:53.886762",
+  "name": "6938781b71",
+  "source_text": "Inside Orders",
+  "translated_text": "طلبات محلية"
  }
 ]
