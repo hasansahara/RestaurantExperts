@@ -234,14 +234,14 @@
   "translated_text": "البرمجة والتصميم"
  },
  {
-  "context": "",
+  "context": "PUBLIC",
   "contributed": 0,
   "contribution_docname": null,
   "contribution_status": "",
   "docstatus": 0,
   "doctype": "Translation",
   "language": "ar",
-  "modified": "2024-01-21 20:54:33.966277",
+  "modified": "2024-09-06 15:48:59.599234",
   "name": "173554471d",
   "source_text": "Public",
   "translated_text": "مساحة العمل الافتراضية"
@@ -1363,31 +1363,5 @@
   "name": "6938781b71",
   "source_text": "Inside Orders",
   "translated_text": "طلبات محلية"
- },
- {
-  "context": "PUBLIC",
-  "contributed": 0,
-  "contribution_docname": null,
-  "contribution_status": "",
-  "docstatus": 0,
-  "doctype": "Translation",
-  "language": "ar",
-  "modified": "2024-09-06 14:47:12.823746",
-  "name": "p3h0olur2b",
-  "source_text": "Public",
-  "translated_text": "المساحة الإفتراضية"
- },
- {
-  "context": null,
-  "contributed": 0,
-  "contribution_docname": null,
-  "contribution_status": "",
-  "docstatus": 0,
-  "doctype": "Translation",
-  "language": "ar",
-  "modified": "2024-09-06 14:48:16.363864",
-  "name": "qe04sda00v",
-  "source_text": "جمهور",
-  "translated_text": "مساحة العمل الإفتراضية"
  }
 ]

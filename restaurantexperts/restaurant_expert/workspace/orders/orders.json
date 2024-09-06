@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "Orders",
  "links": [],
- "modified": "2024-01-16 02:30:03.685586",
+ "modified": "2024-09-06 17:25:43.022017",
  "modified_by": "Administrator",
  "module": "Restaurant Expert",
  "name": "Orders",
@@ -22,7 +22,7 @@
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 5.0,
+ "sequence_id": 6.0,
  "shortcuts": [],
  "title": "Orders"
 }

@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "Reports",
  "links": [],
- "modified": "2024-01-26 02:41:59.513026",
+ "modified": "2024-09-06 17:25:42.908930",
  "modified_by": "Administrator",
  "module": "Restaurant Expert",
  "name": "Reports",
@@ -22,7 +22,7 @@
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 3.0,
+ "sequence_id": 4.0,
  "shortcuts": [
   {
    "color": "Grey",

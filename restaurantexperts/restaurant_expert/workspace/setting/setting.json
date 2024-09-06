@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "Setting",
  "links": [],
- "modified": "2024-01-20 13:56:33.103406",
+ "modified": "2024-09-06 17:25:43.189771",
  "modified_by": "Administrator",
  "module": "Restaurant Expert",
  "name": "Setting",
@@ -22,7 +22,7 @@
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 37.0,
+ "sequence_id": 8.0,
  "shortcuts": [
   {
    "color": "Green",
