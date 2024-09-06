@@ -8,7 +8,7 @@ app_email = "h-m-m@outlook.com"
 app_license = "MIT"
 
 
-fixtures = ["Custom Field", "SQL query Report", "Workspace", "Menu", "Print format", "Dashboard", "Dashboard Card", "Add Role for Doctype", "Server Script","Client Script","Translation"]
+fixtures = ["Custom Field", "SQL query Report", "Workspace", "Menu", "Print format", "Dashboard", "Dashboard Card", "Role", "Server Script","Client Script","Translation"]
 
 
 # Includes in <head>
