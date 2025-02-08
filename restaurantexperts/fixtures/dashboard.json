@@ -550,6 +550,66 @@
  {
   "cards": [
    {
+    "card": "Total Declaration Submitted",
+    "parent": "Payroll",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Salary Structure",
+    "parent": "Payroll",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Incentive Given(Last month)",
+    "parent": "Payroll",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Outgoing Salary(Last month)",
+    "parent": "Payroll",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Outgoing Salary",
+    "parent": "Payroll",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Designation Wise Salary(Last Month)",
+    "parent": "Payroll",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Department Wise Salary(Last Month)",
+    "parent": "Payroll",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "dashboard_name": "Payroll",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 1,
+  "is_standard": 1,
+  "modified": "2022-08-22 14:21:33.653983",
+  "module": "Payroll",
+  "name": "Payroll"
+ },
+ {
+  "cards": [
+   {
     "card": "New Loans",
     "parent": "Loan Dashboard",
     "parentfield": "cards",
@@ -988,66 +1048,6 @@
   "modified": "2022-09-16 11:36:44.704033",
   "module": "HR",
   "name": "Expense Claims"
- },
- {
-  "cards": [
-   {
-    "card": "Total Declaration Submitted",
-    "parent": "Payroll",
-    "parentfield": "cards",
-    "parenttype": "Dashboard"
-   },
-   {
-    "card": "Total Salary Structure",
-    "parent": "Payroll",
-    "parentfield": "cards",
-    "parenttype": "Dashboard"
-   },
-   {
-    "card": "Total Incentive Given(Last month)",
-    "parent": "Payroll",
-    "parentfield": "cards",
-    "parenttype": "Dashboard"
-   },
-   {
-    "card": "Total Outgoing Salary(Last month)",
-    "parent": "Payroll",
-    "parentfield": "cards",
-    "parenttype": "Dashboard"
-   }
-  ],
-  "chart_options": null,
-  "charts": [
-   {
-    "chart": "Outgoing Salary",
-    "parent": "Payroll",
-    "parentfield": "charts",
-    "parenttype": "Dashboard",
-    "width": "Full"
-   },
-   {
-    "chart": "Designation Wise Salary(Last Month)",
-    "parent": "Payroll",
-    "parentfield": "charts",
-    "parenttype": "Dashboard",
-    "width": "Half"
-   },
-   {
-    "chart": "Department Wise Salary(Last Month)",
-    "parent": "Payroll",
-    "parentfield": "charts",
-    "parenttype": "Dashboard",
-    "width": "Half"
-   }
-  ],
-  "dashboard_name": "Payroll",
-  "docstatus": 0,
-  "doctype": "Dashboard",
-  "is_default": 1,
-  "is_standard": 1,
-  "modified": "2022-08-22 14:21:33.653983",
-  "module": "Payroll",
-  "name": "Payroll"
  },
  {
   "cards": [
