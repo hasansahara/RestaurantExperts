@@ -18,7 +18,7 @@
  "is_hidden": 0,
  "label": "Customers",
  "links": [],
- "modified": "2024-09-06 17:25:42.962928",
+ "modified": "2025-02-08 06:04:37.397407",
  "modified_by": "Administrator",
  "module": "Restaurant Expert",
  "name": "Customers",
@@ -36,7 +36,7 @@
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 5.0,
+ "sequence_id": 10.0,
  "shortcuts": [
   {
    "color": "Green",

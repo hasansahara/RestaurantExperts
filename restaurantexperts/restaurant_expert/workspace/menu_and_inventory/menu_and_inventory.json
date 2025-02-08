@@ -141,7 +141,7 @@
    "type": "Link"
   }
  ],
- "modified": "2024-09-06 17:25:43.109307",
+ "modified": "2025-02-08 06:04:37.471624",
  "modified_by": "Administrator",
  "module": "Restaurant Expert",
  "name": "Menu And Inventory",
@@ -150,7 +150,7 @@
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 7.0,
+ "sequence_id": 12.0,
  "shortcuts": [
   {
    "color": "Green",
