@@ -10,6 +10,9 @@ app_license = "MIT"
 
 fixtures = ["Custom Field", "Dashboard", "Role", "Server Script","Client Script","Translation"]
 
+fixtures = [{"dt": "Order Types"}]
+
+
 
 # Includes in <head>
 # ------------------
