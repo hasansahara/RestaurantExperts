@@ -18,6 +18,7 @@ restaurantexperts/config/desktop.py
 restaurantexperts/config/docs.py
 restaurantexperts/fixtures/client_script.json
 restaurantexperts/fixtures/custom_field.json
+restaurantexperts/fixtures/order_types.json
 restaurantexperts/fixtures/role.json
 restaurantexperts/fixtures/server_script.json
 restaurantexperts/fixtures/translation.json
