@@ -12,6 +12,9 @@ body{
 [data-theme=light] {
 	--sidebar-select-color: #3f51b52e;
 	--SpColor: #3f51b52e;
+	--bg-color:#f7f7f7; /*ededed4f;*/
+	--navbar-border-color:#e1e1e1;
+	--bg-layout-side-section:#fff;
 }
 
 /*.navbar {
@@ -26,6 +29,11 @@ body{
 
 	--sidebar-select-color: #6a5acdb3;           /*6a5acdb3       00645   6a5acdb3     */
 	--SpColor: #7080901f;
+	--btn-primary:#6a5acdb3;
+	--neutral: #FFF;
+	--checkbox-gradient: linear-gradient(180deg, var(--btn-primary) -124.51%, var(--btn-primary) 100%);
+	--bg-color:#1c1c1c;
+	--bg-layout-side-section:var(--fg-color);
 }
 /* التركيز على الازرار */
 
@@ -49,5 +57,17 @@ body{
 */
 
 
+.navbar {
+	border-bottom: 1px solid var(--navbar-border-color);
 
+}
 
+.layout-side-section {
+	background-color: var(--bg-layout-side-section);
+	border-radius: var(--border-radius-lg);
+	border: 1px solid var(--border-color);
+}
+
+.sidebar-item-container {
+	line-height: 30px;
+}
