@@ -38,5 +38,15 @@
   "name1": "استلام",
   "type": "Outside Orders",
   "workflow_state": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Order Types",
+  "enabled": 1,
+  "modified": "2025-03-09 00:13:32.304734",
+  "name": "محلي",
+  "name1": "محلي",
+  "type": "Inside Orders",
+  "workflow_state": null
  }
 ]

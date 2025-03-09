@@ -10,7 +10,23 @@ app_license = "MIT"
 
 #fixtures = ["Custom Field", "Dashboard", "Role", "Server Script","Client Script","Translation"]
 
-fixtures = [{"dt": "Order Types"},"Custom Field", "Role", "Server Script","Client Script","Translation"]
+fixtures = [
+	"Translation",
+	{"doctype": "Order Types"},
+	{"doctype": "Custom Field", "filters": [["module", "=", "Restaurant Expert" ]]},
+	{"doctype": "Property Setter", "filters": [["module", "=", "Restaurant Expert" ]]},
+	{"doctype": "Client Script", "filters": [["module", "=", "Restaurant Expert" ]]},
+	{"doctype": "Server Script", "filters": [["module", "=", "Restaurant Expert" ]]},
+	{"doctype": "Print Format", "filters": [["module", "=", "Restaurant Expert" ]]},
+	{"doctype": "DocType", "filters": [["module", "=", "Restaurant Expert" ]]},
+	{"doctype": "Report", "filters": [["module", "=", "Restaurant Expert" ]]},
+	{"doctype": "Workspace", "filters": [["module", "=", "Restaurant Expert" ]]},
+	{"doctype": "Dashboard", "filters": [["module", "=", "Restaurant Expert" ]]},
+	{"doctype": "Dashboard Chart", "filters": [["module", "=", "Restaurant Expert" ]]},
+	{"doctype": "Number Card", "filters": [["module", "=", "Restaurant Expert" ]]},
+	{"doctype": "Kanban Board"},
+	{"doctype": "Letter Head"}
+]
 
 
 

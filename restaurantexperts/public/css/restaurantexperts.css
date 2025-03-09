@@ -15,6 +15,7 @@ body{
 	--bg-color:#f7f7f7; /*ededed4f;*/
 	--navbar-border-color:#e1e1e1;
 	--bg-layout-side-section:#fff;
+	--btn-border:#acacac82;
 }
 
 /*.navbar {
@@ -34,6 +35,7 @@ body{
 	--checkbox-gradient: linear-gradient(180deg, var(--btn-primary) -124.51%, var(--btn-primary) 100%);
 	--bg-color:#1c1c1c;
 	--bg-layout-side-section:var(--fg-color);
+	--btn-border:#5e5e5e;
 }
 /* التركيز على الازرار */
 
@@ -70,4 +72,9 @@ body{
 
 .sidebar-item-container {
 	line-height: 30px;
+}
+
+/* لون زر الفلتر وكلف الى وتصفية وفرز ...الخ  */
+.btn.btn-default {
+	border: 2px dotted var(--btn-border);
 }
