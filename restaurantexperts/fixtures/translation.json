@@ -105792,5 +105792,31 @@
   "name": "g8q2pcai9n",
   "source_text": "Gantt View",
   "translated_text": "عرض مخطط جانت"
+ },
+ {
+  "context": "",
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-03-09 22:59:49.566649",
+  "name": "rmukjerj1h",
+  "source_text": "Please Include Sales Taxes and Charges Template on invoice\nOr include Item Tax Template on ",
+  "translated_text": "يرجى تضمين نموذج ضرائب المبيعات والرسوم في الفاتورة أو تضمين نموذج ضريبة الصنف في "
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-03-10 01:29:26.259975",
+  "name": "k3fhr8rnug",
+  "source_text": "ID Number",
+  "translated_text": "رقم الهوية"
  }
 ]
