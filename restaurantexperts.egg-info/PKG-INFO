@@ -1,6 +1,9 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: restaurantexperts
 Version: 0.0.1
 Summary: Restaurants tools to help managment team
 Author: Hasan Al-Muhaimed
 Author-email: h-m-m@outlook.com
+Dynamic: author
+Dynamic: author-email
+Dynamic: summary
