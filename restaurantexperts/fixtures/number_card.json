@@ -1,6 +1,7 @@
 [
  {
   "aggregate_function_based_on": null,
+  "background_color": null,
   "color": "#CB2929",
   "currency": null,
   "docstatus": 0,
@@ -27,6 +28,7 @@
  },
  {
   "aggregate_function_based_on": null,
+  "background_color": null,
   "color": "#29CD42",
   "currency": null,
   "docstatus": 0,
