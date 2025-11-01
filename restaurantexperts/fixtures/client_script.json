@@ -20,5 +20,16 @@
   "name": "ID_days_remaining_count",
   "script": "frappe.ui.form.on('Employee', {\n    custom_expiry_date: function(frm) {\n        if (frm.doc.custom_expiry_date) {\n            const today = frappe.datetime.get_today();\n            const diff = frappe.datetime.get_diff(frm.doc.custom_expiry_date, today);\n            frm.set_value('custom_id_days_remaining', diff);\n        } else {\n            frm.set_value('custom_id_days_remaining', null);\n        }\n    },\n\n    onload: function(frm) {\n        if (frm.doc.custom_expiry_date) {\n            const today = frappe.datetime.get_today();\n            const diff = frappe.datetime.get_diff(frm.doc.custom_expiry_date, today);\n            frm.set_value('custom_id_days_remaining', diff);\n        }\n    }\n});\n",
   "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Employee",
+  "enabled": 1,
+  "modified": "2025-11-01 22:18:26.331985",
+  "module": "Restaurant Expert",
+  "name": "custom_days_remaining_training",
+  "script": "frappe.ui.form.on('Employee', {\n    custom_training_expiry_date: function(frm) {\n        if (frm.doc.custom_training_expiry_date) {\n            const today = frappe.datetime.get_today();\n            const diff = frappe.datetime.get_diff(frm.doc.custom_training_expiry_date, today);\n            frm.set_value('custom_days_remaining_training', diff);\n        } else {\n            frm.set_value('custom_days_remaining_training', null);\n        }\n    },\n\n    onload: function(frm) {\n        if (frm.doc.custom_training_expiry_date) {\n            const today = frappe.datetime.get_today();\n            const diff = frappe.datetime.get_diff(frm.doc.custom_training_expiry_date, today);\n            frm.set_value('custom_days_remaining_training', diff);\n        }\n    }\n});\n",
+  "view": "Form"
  }
 ]
