@@ -106858,5 +106858,18 @@
   "name": "2u16vhl78s",
   "source_text": "Training Expiry Date",
   "translated_text": "تاريخ إنتهاء التدريب / الحقيبة التثقيفية"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-11-01 22:39:56.736026",
+  "name": "l3vvi9elkj",
+  "source_text": "Employee Exit",
+  "translated_text": "خروج الموظف"
  }
 ]
