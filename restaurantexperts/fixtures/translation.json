@@ -49212,10 +49212,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "ar",
-  "modified": "2025-02-19 12:48:44.249905",
+  "modified": "2025-11-15 10:42:47.696480",
   "name": "s2bc08e7nd",
   "source_text": "Manage",
-  "translated_text": "يدير"
+  "translated_text": "إدارة"
  },
  {
   "context": null,
@@ -107469,5 +107469,109 @@
   "name": "t4val1s3ou",
   "source_text": "Serial and Batch Nos will be auto-reserved based on Pick Serial / Batch Based On",
   "translated_text": "سيتم حجز الأرقام التسلسلية والدفعات تلقائيًا بناءً على إعداد \"Pick Serial / Batch Based On\""
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-11-15 11:47:09.368390",
+  "name": "r45fhl1948",
+  "source_text": "New Version",
+  "translated_text": "إصدار جديد لقائمة المكونات"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-11-15 11:52:22.408439",
+  "name": "u60rpr681k",
+  "source_text": "Stock Movement",
+  "translated_text": "حركة المخزون"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-11-15 12:02:24.587269",
+  "name": "4250q3b5c8",
+  "source_text": "Allow Sales",
+  "translated_text": "السماح بالبيع"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-11-15 13:14:43.567996",
+  "name": "ee3a9md64g",
+  "source_text": "To Pay",
+  "translated_text": "للدفع"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-11-15 14:05:53.002039",
+  "name": "cdafu1uajd",
+  "source_text": "In Value",
+  "translated_text": "القيمة الواردة"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-11-15 14:06:43.439153",
+  "name": "ct21vgeqkh",
+  "source_text": "Out Value",
+  "translated_text": "القيمة الصادرة"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-11-15 14:21:55.995779",
+  "name": "lq75cmarsp",
+  "source_text": "Consider Process Loss",
+  "translated_text": "احتساب الفاقد أثناء عملية التصنيع"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-11-15 14:22:45.889099",
+  "name": "m9qh1aogtr",
+  "source_text": "Other Info",
+  "translated_text": "معلومات أخرى"
  }
 ]
