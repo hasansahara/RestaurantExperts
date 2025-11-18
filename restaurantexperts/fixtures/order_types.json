@@ -21,15 +21,6 @@
   "docstatus": 0,
   "doctype": "Order Types",
   "enabled": 1,
-  "modified": "2025-02-08 18:13:25.233537",
-  "name": "سفري",
-  "name1": "سفري",
-  "type": "Outside Orders"
- },
- {
-  "docstatus": 0,
-  "doctype": "Order Types",
-  "enabled": 1,
   "modified": "2025-02-08 18:13:36.407035",
   "name": "استلام",
   "name1": "استلام",
@@ -43,5 +34,14 @@
   "name": "محلي",
   "name1": "محلي",
   "type": "Inside Orders"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Order Types",
+  "enabled": 1,
+  "modified": "2025-02-08 18:13:25.233537",
+  "name": "سفري",
+  "name1": "سفري",
+  "type": "Outside Orders"
  }
 ]
