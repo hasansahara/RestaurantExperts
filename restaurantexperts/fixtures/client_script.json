@@ -2,6 +2,28 @@
  {
   "docstatus": 0,
   "doctype": "Client Script",
+  "dt": "POS Profile",
+  "enabled": 0,
+  "modified": "2025-11-23 18:09:24.301456",
+  "module": "Restaurant Expert",
+  "name": "Open_Update_Stock",
+  "script": "frappe.ui.form.on(\"POS Invoice\", {\n    onload: function(frm) {\n        // اجعل الحقل قابل للتعديل\n        frm.set_df_property(\"update_stock\", \"read_only\", 0);\n    }\n});\n",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "POS Invoice",
+  "enabled": 0,
+  "modified": "2025-11-23 19:06:19.497156",
+  "module": "Restaurant Expert",
+  "name": "open_update_stock_2",
+  "script": "frappe.ui.form.on(\"POS Invoice\", {\n    onload: function(frm) {\n        // اجعل الحقل قابل للتعديل\n        frm.set_df_property(\"update_stock\", \"read_only\", 0);\n    }\n});\n",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
   "dt": "Employee",
   "enabled": 1,
   "modified": "2025-05-28 01:36:59.965949",

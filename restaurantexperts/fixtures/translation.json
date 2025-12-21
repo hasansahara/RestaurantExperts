@@ -7,6 +7,45 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "ar",
+  "modified": "2025-12-05 10:45:26.709336",
+  "name": "1v3fmts32s",
+  "source_text": "Linked with submitted documents",
+  "translated_text": "مرتبطة بمستندات مُعتمدة"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-05 10:46:38.070342",
+  "name": "2lc18fban4",
+  "source_text": "Example of a linked document: ",
+  "translated_text": "مثال على مستند مرتبط:"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-05 10:48:23.199966",
+  "name": "3ehplk04jg",
+  "source_text": "As there are existing submitted transactions against item",
+  "translated_text": "نظرًا لوجود معاملات مُعتمدة مسبقًا مرتبطة بالصنف"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
   "modified": "2025-03-11 03:49:19.769066",
   "name": "fe20860611",
   "source_text": "Payment Reconciliation",
@@ -97513,17 +97552,17 @@
   "translated_text": "صرف المواد الخام بناءً على :"
  },
  {
-  "context": null,
+  "context": "",
   "contributed": 0,
   "contribution_docname": null,
   "contribution_status": "",
   "docstatus": 0,
   "doctype": "Translation",
   "language": "ar",
-  "modified": "2025-02-19 12:57:44.596841",
+  "modified": "2025-12-19 23:36:28.555346",
   "name": "u3rv4q7uu8",
   "source_text": "Balance Qty",
-  "translated_text": "الكمية المتوفرة"
+  "translated_text": "كمية المخزون المتوفر"
  },
  {
   "context": null,
@@ -107573,5 +107612,57 @@
   "name": "m9qh1aogtr",
   "source_text": "Other Info",
   "translated_text": "معلومات أخرى"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-19 23:36:13.856074",
+  "name": "a3anomrrfl",
+  "source_text": "Balance Value",
+  "translated_text": "قيمة المخزون المتوفر"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-19 23:53:36.464776",
+  "name": "k94vcc16g5",
+  "source_text": "Stock",
+  "translated_text": "المخزون"
+ },
+ {
+  "context": "",
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-20 00:32:05.986140",
+  "name": "aqr678019f",
+  "source_text": "Payables",
+  "translated_text": "مستحقات علينا (دائنة)"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-20 00:33:21.899359",
+  "name": "bijtqieuo8",
+  "source_text": "Receivables",
+  "translated_text": "مستحقات لنا (مدينة)"
  }
 ]
