@@ -97526,17 +97526,17 @@
   "translated_text": "صرف المواد الخام بناءً على :"
  },
  {
-  "context": null,
+  "context": "",
   "contributed": 0,
   "contribution_docname": null,
   "contribution_status": "",
   "docstatus": 0,
   "doctype": "Translation",
   "language": "ar",
-  "modified": "2025-02-19 12:57:44.596841",
+  "modified": "2025-12-19 23:36:28.555346",
   "name": "u3rv4q7uu8",
   "source_text": "Balance Qty",
-  "translated_text": "الكمية المتوفرة"
+  "translated_text": "كمية المخزون المتوفر"
  },
  {
   "context": null,
