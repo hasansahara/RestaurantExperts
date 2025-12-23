@@ -4,4 +4,5 @@
 *.swp
 tags
 restaurantexperts/docs/current
-node_modules/
+node_modules/__pycache__/
+*.pyc
