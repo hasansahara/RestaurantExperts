@@ -7,6 +7,19 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "ar",
+  "modified": "2025-12-15 11:12:53.007391",
+  "name": "7hitf217gv",
+  "source_text": "Roles & Permissions",
+  "translated_text": "الأدوار والصلاحيات"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
   "modified": "2025-03-11 03:49:19.769066",
   "name": "fe20860611",
   "source_text": "Payment Reconciliation",
@@ -107573,5 +107586,31 @@
   "name": "m9qh1aogtr",
   "source_text": "Other Info",
   "translated_text": "معلومات أخرى"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-18 11:11:50.431023",
+  "name": "a60ifjgpkg",
+  "source_text": "Education Program Expiry Date",
+  "translated_text": "تاريخ إنتهاء صلاحية برنامج التثقيف الصحي"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-18 11:16:05.726678",
+  "name": "clp72fv2rv",
+  "source_text": "Education Program Days Remaining",
+  "translated_text": "عدد الأيام المتبقية لإنتهاء برنامج التثقيف الصحي"
  }
 ]

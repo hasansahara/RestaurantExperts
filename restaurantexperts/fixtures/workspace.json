@@ -38,7 +38,7 @@
   "is_hidden": 0,
   "label": "POS",
   "links": [],
-  "modified": "2025-02-09 09:47:11.195406",
+  "modified": "2025-12-18 15:12:52.696655",
   "module": "Restaurant Expert",
   "name": "POS",
   "number_cards": [],
@@ -47,7 +47,7 @@
   "quick_lists": [],
   "restrict_to_domain": null,
   "roles": [],
-  "sequence_id": 4.0,
+  "sequence_id": 7.0,
   "shortcuts": [
    {
     "color": "Grey",
@@ -82,7 +82,7 @@
   "is_hidden": 0,
   "label": "Orders",
   "links": [],
-  "modified": "2025-02-08 06:20:50.296669",
+  "modified": "2025-12-18 15:12:52.730524",
   "module": "Restaurant Expert",
   "name": "Orders",
   "number_cards": [],
@@ -91,7 +91,7 @@
   "quick_lists": [],
   "restrict_to_domain": null,
   "roles": [],
-  "sequence_id": 7.0,
+  "sequence_id": 10.0,
   "shortcuts": [],
   "title": "Orders"
  },
@@ -108,7 +108,7 @@
   "is_hidden": 0,
   "label": "Foodiescape",
   "links": [],
-  "modified": "2025-02-21 11:38:20.044719",
+  "modified": "2025-12-18 15:12:52.685582",
   "module": "Restaurant Expert",
   "name": "Foodiescape",
   "number_cards": [
@@ -125,7 +125,7 @@
   "quick_lists": [],
   "restrict_to_domain": null,
   "roles": [],
-  "sequence_id": 3.0,
+  "sequence_id": 6.0,
   "shortcuts": [],
   "title": "Foodiescape"
  },
@@ -150,7 +150,7 @@
   "is_hidden": 0,
   "label": "Customers",
   "links": [],
-  "modified": "2025-02-08 06:20:50.261161",
+  "modified": "2025-12-18 15:12:52.718560",
   "module": "Restaurant Expert",
   "name": "Customers",
   "number_cards": [
@@ -174,7 +174,7 @@
   "quick_lists": [],
   "restrict_to_domain": null,
   "roles": [],
-  "sequence_id": 6.0,
+  "sequence_id": 9.0,
   "shortcuts": [
    {
     "color": "Green",
@@ -209,7 +209,7 @@
   "is_hidden": 0,
   "label": "Setting",
   "links": [],
-  "modified": "2025-02-08 06:20:50.371387",
+  "modified": "2025-12-18 15:12:52.757174",
   "module": "Restaurant Expert",
   "name": "Setting",
   "number_cards": [],
@@ -218,7 +218,7 @@
   "quick_lists": [],
   "restrict_to_domain": null,
   "roles": [],
-  "sequence_id": 9.0,
+  "sequence_id": 12.0,
   "shortcuts": [
    {
     "color": "Green",
@@ -641,7 +641,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2025-02-09 09:03:30.205069",
+  "modified": "2025-12-18 15:12:52.741731",
   "module": "Restaurant Expert",
   "name": "Menu And Inventory",
   "number_cards": [],
@@ -650,7 +650,7 @@
   "quick_lists": [],
   "restrict_to_domain": null,
   "roles": [],
-  "sequence_id": 8.0,
+  "sequence_id": 11.0,
   "shortcuts": [
    {
     "color": "Green",
@@ -787,7 +787,7 @@
   "is_hidden": 0,
   "label": "Reports",
   "links": [],
-  "modified": "2025-02-08 06:20:50.229650",
+  "modified": "2025-12-18 15:12:52.707625",
   "module": "Restaurant Expert",
   "name": "Reports",
   "number_cards": [],
@@ -796,7 +796,7 @@
   "quick_lists": [],
   "restrict_to_domain": null,
   "roles": [],
-  "sequence_id": 5.0,
+  "sequence_id": 8.0,
   "shortcuts": [
    {
     "color": "Grey",
