@@ -25,7 +25,31 @@ fixtures = [
 	{"doctype": "Dashboard Chart", "filters": [["module", "=", "Restaurant Expert" ]]},
 	{"doctype": "Number Card", "filters": [["module", "=", "Restaurant Expert" ]]},
 	{"doctype": "Kanban Board"},
-	{"doctype": "Letter Head"}
+	{"doctype": "Letter Head"},
+# =========================
+    # Automation / Workflow
+    # =========================
+	{"doctype": "Workflow"},
+	{"doctype": "Workflow State"},
+	{"doctype": "Workflow Action"},
+
+    # =========================
+    # Notifications & Alerts
+    # =========================
+	{"doctype": "Notification"},
+	{"doctype": "Auto Email Report"},
+
+    # =========================
+    # Forms Enhancements
+    # =========================
+	{"doctype": "Print Style", "filters": [["name", "like", "RE_%"]]},
+	{"doctype": "Custom HTML Block", "filters": [["name", "like", "RE_%"]]},
+
+]
+
+
+patches = [
+    "restaurantexperts.patches.enable_workspaces"
 ]
 
 
@@ -34,7 +58,11 @@ fixtures = [
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_css = "/assets/restaurantexperts/css/restaurantexperts.css"
+###############################app_include_css = "/assets/restaurantexperts/css/restaurantexperts.css"
+app_include_css = [
+    "/assets/restaurantexperts/css/restaurantexperts.css"
+]
+
 # app_include_js = "/assets/restaurantexperts/js/restaurantexperts.js"
 
 # include js, css files in header of web template
