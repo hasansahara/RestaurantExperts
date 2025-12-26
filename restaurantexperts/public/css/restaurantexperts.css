@@ -1,9 +1,353 @@
-
+/* old settings
 @import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body{
 	font-family: 'Noto Kufi Arabic', sans-serif;
 
+}
+*/
+/*//////////////////////////////////////////////////////////*/
+/* استيراد خط Noto Kufi Arabic */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* استيراد خط Claudion من الرابط المقدم */
+@font-face {
+  font-family: 'Claudion';
+  src: url('fonts/Claudion.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* اجعل الخطوط هي الافتراضية للـPrint Format */
+.print-format, .print-format * {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif;
+}
+
+/* قاعدة عامة للنصوص */
+body, p, span, td, th, div {
+  font-family: 'Noto Kufi Arabic', sans-serif;
+/*    font-family: 'Claudion', sans-serif;*/
+}
+
+
+/* تطبيق خط Claudion على كل النصوص التي تحتوي على رمز الريال السعودي */
+/*.number, .currency, .widget-body, .widget-content, .sar-symbol {
+    font-family: 'Claudion', sans-serif !important;
+}
+*/
+
+/* Dashboard widgets */
+.number {
+  font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif;
+}
+
+/* Lists & Reports (Sales Invoice, GL, POS, etc) */
+.text-right,
+.text-end,
+.list-row-col.text-right,
+.list-row-col.text-end {
+  font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif;
+}
+
+/* القيم داخل الروابط */
+.text-right div,
+.text-end div,
+.text-right span,
+.text-end span {
+  font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif;
+}
+
+/* Frappe DataTable currency cells */
+.dt-cell__content,
+.dt-cell__content div[style*="text-align: right"] {
+  font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif;
+}
+
+/* Frappe Charts tooltip currency */
+.tooltip-value {
+  font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif;
+}
+
+/* Currency Symbol input only */
+.sar-symbol,
+.currency-symbol {
+  font-family: 'Claudion', sans-serif;
+}
+
+input[data-doctype="Currency"][data-fieldname="symbol"] {
+  font-family: 'Claudion', sans-serif;
+}
+
+.control-value.like-disabled-input {
+  font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif;
+}
+
+.summary-value {
+  font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif;
+}
+
+.graph-svg-tip .tooltip-value {
+  font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif;
+}
+.graph-svg-tip,
+.graph-svg-tip .tooltip-value,
+.graph-svg-tip .tooltip-value div {
+  font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif;
+}
+
+/* تطبيق خط Claudion على جميع Tooltips الخاصة بالـ Charts */
+.graph-svg-tip .tooltip-value {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif;
+}
+
+/* تطبيق خط Claudion على أي رصيد يظهر في عناصر tree أو balance-area */
+.balance-area {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif;
+}
+
+.fg-item-amt {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif;
+}
+
+label, span, input, button, div {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif;
+}
+
+/* إجبار كل عناصر fg-item-amt داخل أي Pill أو Grid على استخدام الخط المناسب */
+.fg-item-amt,
+.fg-item-amt div {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+/* ظهور رمز ⃀ في عناوين editable-title */
+.editable-title h3.title-text {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+.editable-title * {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+/* ظهور الرمز ⃀ في Breadcrumbs */
+#navbar-breadcrumbs li a {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+/* اجبار الخط المناسب لكل الأماكن التي تحتوي على الرمز ⃀ */
+body, 
+h1, h2, h3, h4, h5, h6,
+.ellipsis.title-text,
+.pill .fg-item-amt div,
+.grid-body .grid-row .static-area,
+#navbar-breadcrumbs li a,
+div.control-value,
+span.control-value,
+div.breadcrumb,
+div.breadcrumb a {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+/* تطبيق الخط الكوفي على كل العناوين القابلة للتحرير */
+.editable-title * {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+/* ظهور الرمز ⃀ في Breadcrumbs */
+#navbar-breadcrumbs li a {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+/* ظهور الرمز ⃀ في الحقول والفلاتر المنسدلة */
+.awesomplete ul[role="listbox"] li p,
+.awesomplete ul[role="listbox"] li strong,
+.awesomplete ul[role="listbox"] li span,
+.popover .awesomplete ul[role="listbox"] li p,
+.popover .awesomplete ul[role="listbox"] li strong,
+.popover .awesomplete ul[role="listbox"] li span,
+.frappe-control .link-field a {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+  /*  unicode-bidi: embed; /* لضمان ظهور الرموز الخاصة مثل ⃀ */
+}
+
+/* ظهور الرمز ⃀ في أي Label أو نص داخل الفلاتر */
+.filter-field label,
+.filter-popover label,
+.filter-field span,
+.filter-popover span,
+.control-label {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+
+/*///////////////////////////////////////////////////////////////////
+
+/* الخط الكوفي لجميع قيم الجداول */
+.table .value,
+.frappe-datatable .dt-cell,
+.frappe-datatable .dt-cell * {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+/* نصوص محرر Quill */
+.ql-editor, 
+.ql-snow {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+/* أي div يحتوي على class "value" */
+div.value {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+/* تطبيق الخط الكوفي لجميع قيم الطباعة */
+.print-format .value,
+.print-format .value *,
+.print-format .ql-editor,
+.print-format .ql-snow {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+/* خطوط الرأس والعناوين */
+.print-format h1, 
+.print-format h2, 
+.print-format h3, 
+.print-format h4, 
+.print-format h5, 
+.print-format h6,
+.print-format label {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+/* ===== KSA VAT PRINT FIX ===== */
+
+.ksa-vat-format,
+.ksa-vat-format * {
+   font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+/* القيم المالية تحديدًا */
+.ksa-vat-format .currency-symbol,
+.ksa-vat-format .formatted-value,
+.ksa-vat-format td,
+.ksa-vat-format th {
+   font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+    
+}
+
+/* ===== FORCE SAR SYMBOL IN FORM TABLE VALUES ===== */
+
+/* استهداف مباشر لخلايا الجداول */
+.form-grid .value,
+.grid-body .value,
+.table-responsive .value,
+tbody .value {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+/* الحالات التي يكون فيها النص داخل text-right */
+.text-right .value {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+/* ===== FORCE SAR SYMBOL IN PRINT FORMAT (wkhtmltopdf SAFE) ===== */
+
+.print-format,
+.print-format * {
+    font-family: "Arial Unicode MS", Arial, sans-serif !important;
+}
+
+/* أرقام العملة فقط */
+.print-format .value,
+.print-format td,
+.print-format th {
+    unicode-bidi: isolate !important;
+    direction: ltr !important;
+}
+
+
+/*////////////////////////////////*/
+/* Awesomplete Currency Dropdown */
+.awesomplete li p,
+.awesomplete li p strong {
+    font-family:
+        'Claudion',
+        'Noto Kufi Arabic',
+        'Segoe UI Symbol',
+        'Arial Unicode MS',
+        sans-serif !important;
+}
+/* ===== Saudi Riyal Symbol Fix (⃀) ===== */
+
+.currency-symbol,
+[data-fieldtype="Currency"],
+.awesomplete li p strong,
+.control-label,
+.help,
+span {
+    font-family:
+        'Claudion',
+        'Noto Kufi Arabic',
+        'Segoe UI Symbol',
+        'Arial Unicode MS',
+        sans-serif !important;
+}
+
+/*/////////////////////////////////////////////////////////*/
+
+/* القوائم المنسدلة Awesomplete */
+.awesomplete li p,
+.awesomplete li strong {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+/* Breadcrumbs (اعادة التأكيد) */
+#navbar-breadcrumbs li a {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+/* أي عناصر ديناميكية تستخدم strong أو p */
+strong, p, span, label, div {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+    unicode-bidi: embed !important; /* لضمان ظهور الرموز الخاصة*/
+}
+/*
+.filter-popover, .filter-popover * {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+*/
+
+/*//////////////////////////////////////////////////////////////////*/
+/* تعديل حجم الرمز في BOM pills إذا لزم */
+.pill .fg-item-amt div {
+    font-size: 0.9rem; /* يمكن تعديل الحجم حسب الحاجة */
+}
+
+/* تعديل الرمز في Breadcrumbs ليتوافق مع باقي الخط */
+#navbar-breadcrumbs li a {
+    font-weight: 500;
+}
+
+/* اجبار الخط المناسب للرموز داخل Link Fields */
+.control-value a,
+.control-input input.input-with-feedback {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
+/* تحسين عرض الرمز داخل الحقول */
+.control-input input.input-with-feedback {
+    letter-spacing: 0; /* إزالة أي تباعد قد يسبب اختفاء الرمز */
+    font-size: 0.95rem; /* يمكن تعديل الحجم حسب الحاجة */
+}
+
+.list-row-col a,
+.list-row-col span {
+    font-family: 'Claudion', 'Noto Kufi Arabic', monospace, sans-serif !important;
+}
+.list-row-col a.ellipsis {
+    text-overflow: clip !important;
+}
+.list-row-col a.ellipsis {
+    font-size: 0.95rem;
 }
 
 

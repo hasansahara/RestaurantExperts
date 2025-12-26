@@ -1372,10 +1372,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "ar",
-  "modified": "2025-05-22 21:09:17.994454",
+  "modified": "2025-12-26 21:06:45.342063",
   "name": "4obj8c17or",
   "source_text": "Landed Cost Voucher",
-  "translated_text": "إشعار تكلفة البضاعة المستلمة"
+  "translated_text": "تكاليف اضافية على المخزون"
  },
  {
   "context": null,
@@ -18666,19 +18666,6 @@
   "name": "2jd1h4eb68",
   "source_text": "COGS Debit",
   "translated_text": "الخصم COGS"
- },
- {
-  "context": null,
-  "contributed": 0,
-  "contribution_docname": null,
-  "contribution_status": "",
-  "docstatus": 0,
-  "doctype": "Translation",
-  "language": "ar",
-  "modified": "2025-02-19 12:44:52.105898",
-  "name": "3gs147nf36",
-  "source_text": "Collapse",
-  "translated_text": "ضم"
  },
  {
   "context": null,
@@ -65020,7 +65007,7 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "ar",
-  "modified": "2025-02-19 12:51:55.882526",
+  "modified": "2025-12-26 20:04:24.162973",
   "name": "udtilgdejd",
   "source_text": "Public",
   "translated_text": "مساحة العمل الافتراضية"
@@ -73762,14 +73749,14 @@
   "translated_text": "بحث أو كتابة أمر"
  },
  {
-  "context": null,
+  "context": "",
   "contributed": 0,
   "contribution_docname": null,
   "contribution_status": "",
   "docstatus": 0,
   "doctype": "Translation",
   "language": "ar",
-  "modified": "2025-02-19 12:53:29.828626",
+  "modified": "2025-12-26 20:07:38.861042",
   "name": "blk28igo1m",
   "source_text": "Search or type a command (Ctrl + G)",
   "translated_text": "ابحث هنا (Ctrl + G)"
@@ -97975,9 +97962,9 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "ar",
-  "modified": "2025-02-19 12:57:47.822405",
+  "modified": "2025-12-26 20:01:12.770893",
   "name": "s24oc9q29j",
-  "source_text": "Chart Of Accounts",
+  "source_text": "Chart of Accounts",
   "translated_text": "دليل الحسابات"
  },
  {
@@ -105580,10 +105567,10 @@
   "docstatus": 0,
   "doctype": "Translation",
   "language": "ar",
-  "modified": "2025-02-19 15:18:52.145215",
+  "modified": "2025-12-26 19:58:43.920860",
   "name": "lk6tdo4qqh",
   "source_text": "Tree View",
-  "translated_text": "عرض الشجرة"
+  "translated_text": "عرض شجري"
  },
  {
   "context": null,
@@ -107703,5 +107690,187 @@
   "name": "clp72fv2rv",
   "source_text": "Education Program Days Remaining",
   "translated_text": "عدد الأيام المتبقية لإنتهاء برنامج التثقيف الصحي"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-26 14:28:24.164230",
+  "name": "rbhll21j70",
+  "source_text": "FA Company",
+  "translated_text": "شركة اف اي"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-26 20:09:06.601453",
+  "name": "2vq87pmq1e",
+  "source_text": "Collapse",
+  "translated_text": "اغلاق"
+ },
+ {
+  "context": "",
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-26 20:22:35.210235",
+  "name": "asga59b5q5",
+  "source_text": "Halala",
+  "translated_text": "هللة"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-26 20:42:16.053855",
+  "name": "k8eoh3jbib",
+  "source_text": "View Stock Ledger",
+  "translated_text": "عرض سجل المخزون"
+ },
+ {
+  "context": "",
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-26 20:41:48.490496",
+  "name": "kein3qfqh0",
+  "source_text": "View Stock Balance",
+  "translated_text": "عرض أرصدة المخزون"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-26 20:44:20.311750",
+  "name": "nkbr11ln14",
+  "source_text": "Stock Balance",
+  "translated_text": "أرصدة المخزون"
+ },
+ {
+  "context": "",
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-26 20:44:59.192549",
+  "name": "o0fmq48aql",
+  "source_text": "Stock Ledger",
+  "translated_text": "سجل المخزون"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-26 20:46:58.602088",
+  "name": "p5q5jhd2ii",
+  "source_text": "Stock Reports",
+  "translated_text": "تقارير المخزون"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-26 20:50:05.001836",
+  "name": "r02cb4md5a",
+  "source_text": "Stock Summary",
+  "translated_text": "ملخص المخزون"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-26 20:51:51.300237",
+  "name": "s190k10bt6",
+  "source_text": "Stock Ageing",
+  "translated_text": "أعمار المخزون"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-26 21:04:25.471366",
+  "name": "3cun6hisi6",
+  "source_text": "Stock Reconciliation",
+  "translated_text": "تسوية المخزون"
+ },
+ {
+  "context": "",
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-26 21:10:10.869303",
+  "name": "6os1eh7rak",
+  "source_text": "Packing Slip",
+  "translated_text": "إشعار تجهيز / تغليف / تعبئة"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-26 21:11:20.008836",
+  "name": "7eg6rbdggf",
+  "source_text": "Quality Inspection Template",
+  "translated_text": "نموذج / قالب فحص الجودة"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ar",
+  "modified": "2025-12-26 21:13:30.688077",
+  "name": "8nakh921ec",
+  "source_text": "Quick Stock Balance",
+  "translated_text": "عرض سريع لرصيد المخزون"
  }
 ]

@@ -1,0 +1,21 @@
+/* خط Claudion */
+@font-face {
+  font-family: 'Claudion';
+  src: url('fonts/Claudion-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* خط Noto Kufi Arabic */
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  src: url('fonts/NotoKufiArabic-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* تطبيق الخطوط على Print Format */
+.print-format, .print-format * {
+    font-family: 'Claudion', 'Noto Kufi Arabic', sans-serif !important;
+}
+
