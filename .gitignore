@@ -1,8 +1,10 @@
 .DS_Store
 *.pyc
+*.pyo
+*.pyd
+__pycache__/
 *.egg-info
 *.swp
 tags
+node_modules/
 restaurantexperts/docs/current
-node_modules/__pycache__/
-*.pyc
