@@ -360,6 +360,7 @@ strong, p, span, label, div {
 	--navbar-border-color:#e1e1e1;
 	--bg-layout-side-section:#fff;
 	--btn-border:#acacac82;
+	--widget-shortcut-widget-box-links-widget-box: #dce0f259;
 }
 
 /*.navbar {
@@ -369,6 +370,8 @@ strong, p, span, label, div {
     padding: 0;
 }
 */
+
+
 
 [data-theme=dark] {
 
@@ -380,6 +383,7 @@ strong, p, span, label, div {
 	--bg-color:#1c1c1c;
 	--bg-layout-side-section:var(--fg-color);
 	--btn-border:#5e5e5e;
+	--widget-shortcut-widget-box-links-widget-box: #7080901f;
 }
 /* التركيز على الازرار */
 
@@ -394,7 +398,18 @@ strong, p, span, label, div {
 }
 
 
+/*لون خلفية الاختصارات - والبوكس تبع الاتصارات*/
+.widget.shortcut-widget-box,
+.widget.links-widget-box {
+	background-color: var(--widget-shortcut-widget-box-links-widget-box);
+	padding: 10px 7px;
+}
 
+.widget.links-widget-box .link-item:hover, .shortcut-widget-box:hover {
+	background-color: var(--sidebar-select-color);
+;
+
+}
 
 
 /* .standard-sidebar .standard-sidebar-item:hover, .desk-sidebar .standard-sidebar-item:hover, .search-dialog .search-results .search-sidebar .standard-sidebar-item:hover { 

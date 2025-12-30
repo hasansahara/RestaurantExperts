@@ -62,9 +62,15 @@ app_include_css = [
     "/assets/restaurantexperts/css/restaurantexperts.css"
 ]
 
+app_include_js = [
+    "/assets/restaurantexperts/js/navbar.js"
+]
+
+
 #app_include_js = [
 #    "/assets/restaurantexperts/js/sar-symbol.js"
 #]
+
 
 # app_include_js = "/assets/restaurantexperts/js/restaurantexperts.js"
 
