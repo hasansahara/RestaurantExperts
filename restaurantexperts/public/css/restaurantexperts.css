@@ -416,9 +416,14 @@ strong, p, span, label, div {
 .widget.links-widget-box .link-item:hover, .shortcut-widget-box:hover {
 	background-color: var(--sidebar-select-color);
 	border: 1px solid var(--BoxBorderShorLinkColorBorder);
-;
-
 }
+
+/*لون خلفية الاختصارات فقط*/
+/*.widget.shortcut-widget-box {
+	background-color: var(--sidebar-select-color);
+	border: 1px solid var(--BoxBorderShorLinkColorBorder);
+
+}*/
 
 
 /* .standard-sidebar .standard-sidebar-item:hover, .desk-sidebar .standard-sidebar-item:hover, .search-dialog .search-results .search-sidebar .standard-sidebar-item:hover { 
