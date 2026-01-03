@@ -8,7 +8,7 @@ body{
 */
 /*//////////////////////////////////////////////////////////*/
 /* استيراد خط Noto Kufi Arabic */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300;400;500;600;700;800;900&display=swap');
 
 /* استيراد خط Claudion من الرابط المقدم */
 @font-face {
@@ -354,9 +354,10 @@ strong, p, span, label, div {
 /*//////////////////////////////////////////////////////////*/
 
 [data-theme=light] {
-	--sidebar-select-color: #3f51b52e;
+	--sidebar-select-color: #3f51b52e;        /*#3f51b52e;*/
 	--SpColor: #3f51b52e;
-	--bg-color:#f7f7f7; /*ededed4f;*/
+    --btn-primary: #6C5FBC;
+	--bg-color:#f9f9f9; /*ededed4f; old#f7f7f7 */
 	--navbar-border-color:#e1e1e1;
 	--bg-layout-side-section:#fff;
 	--btn-border:#acacac82;
@@ -380,6 +381,7 @@ strong, p, span, label, div {
 	--sidebar-select-color: #6a5acdb3;           /*6a5acdb3       00645   6a5acdb3     */
 	--SpColor: #7080901f;
 	--btn-primary:#6a5acdb3;
+    --btn-primary-click: #DBD9EE;
 	--neutral: #FFF;
 	--checkbox-gradient: linear-gradient(180deg, var(--btn-primary) -124.51%, var(--btn-primary) 100%);
 	--bg-color:#1c1c1c;
@@ -412,8 +414,13 @@ strong, p, span, label, div {
 	border: 1px solid var(--BoxBorderShorLinkColor);
 }
 
+/*التأشير على الاختصارات داخل البوكس */
+.widget.links-widget-box .link-item:hover {
+	background-color: var(--sidebar-select-color);
+	/*border: 1px solid var(--BoxBorderShorLinkColorBorder);*/
+}
 /*التأشير على الاختصارات */
-.widget.links-widget-box .link-item:hover, .shortcut-widget-box:hover {
+.widget.shortcut-widget-box:hover {
 	background-color: var(--sidebar-select-color);
 	border: 1px solid var(--BoxBorderShorLinkColorBorder);
 }
@@ -451,3 +458,8 @@ strong, p, span, label, div {
 .btn.btn-default {
 	border: 2px dotted var(--btn-border);
 }
+.btn.btn-primary:active  {
+	background-color: var(--btn-primary)!important;
+}
+
+
