@@ -364,6 +364,11 @@ strong, p, span, label, div {
 	--widget-shortcut-widget-box-links-widget-box: #dce0f259;
 	--BoxBorderShorLinkColor: #eee;
 	--BoxBorderShorLinkColorBorder: #dcd8ea;
+    --checkbox-gradient: linear-gradient(180deg, var(--btn-primary) -124.51%, var(--btn-primary) 100%);
+    /* لون الايقونات
+    --icon-stroke: #6C5FBC;
+    */
+
 }
 
 /*.navbar {
@@ -390,6 +395,11 @@ strong, p, span, label, div {
 	--widget-shortcut-widget-box-links-widget-box: #7080901f;
 	--BoxBorderShorLinkColor: #242424;
 	--BoxBorderShorLinkColorBorder: #5649a6b2;
+    --checkbox-gradient: linear-gradient(180deg, var(--btn-primary) -124.51%, var(--btn-primary) 100%);
+    /* لون الايقونات
+    --icon-stroke: #6C5FBC;
+    */
+
 }
 /* التركيز على الازرار */
 
@@ -461,5 +471,12 @@ strong, p, span, label, div {
 .btn.btn-primary:active  {
 	background-color: var(--btn-primary)!important;
 }
+
+
+input[type="checkbox"].disabled-selected {
+    background-color: #828292;
+}
+
+
 
 
