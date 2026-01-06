@@ -126,6 +126,12 @@ app_include_js = [
 # before_install = "restaurantexperts.install.before_install"
 # after_install = "restaurantexperts.install.after_install"
 
+# restaurantexperts/hooks.py
+
+after_install = "restaurantexperts.install.create_naming_rules"
+
+
+
 # Uninstallation
 # ------------
 
